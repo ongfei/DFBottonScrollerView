@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63046A56967565593575D42E /* libPods-DFBottonScrollerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D8076FB98D45AA3245B1A9 /* libPods-DFBottonScrollerView.a */; };
+		A3093DC61F0F7AAA0055B897 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3093DC51F0F7AAA0055B897 /* main.m */; };
+		A3093DC91F0F7AAA0055B897 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3093DC81F0F7AAA0055B897 /* AppDelegate.m */; };
+		A3093DCC1F0F7AAA0055B897 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3093DCB1F0F7AAA0055B897 /* ViewController.m */; };
+		A3093DCF1F0F7AAA0055B897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3093DCD1F0F7AAA0055B897 /* Main.storyboard */; };
+		A3093DD11F0F7AAA0055B897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3093DD01F0F7AAA0055B897 /* Assets.xcassets */; };
+		A3093DD41F0F7AAA0055B897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3093DD21F0F7AAA0055B897 /* LaunchScreen.storyboard */; };
+		A3093DDF1F0F7AAA0055B897 /* DFBottonScrollerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3093DDE1F0F7AAA0055B897 /* DFBottonScrollerViewTests.m */; };
+		A3093DEA1F0F7AAA0055B897 /* DFBottonScrollerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3093DE91F0F7AAA0055B897 /* DFBottonScrollerViewUITests.m */; };
+		A3093E051F0F7C920055B897 /* DFImgAndLableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3093E021F0F7C920055B897 /* DFImgAndLableView.m */; };
+		A3093E061F0F7C920055B897 /* DFButtonScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3093E041F0F7C920055B897 /* DFButtonScrollView.m */; };
+		A3093E0B1F0F7FB60055B897 /* 赞.png in Resources */ = {isa = PBXBuildFile; fileRef = A3093E071F0F7FB60055B897 /* 赞.png */; };
+		A3093E0C1F0F7FB60055B897 /* like_0.png in Resources */ = {isa = PBXBuildFile; fileRef = A3093E081F0F7FB60055B897 /* like_0.png */; };
+		A3093E0D1F0F7FB60055B897 /* like_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A3093E091F0F7FB60055B897 /* like_1.png */; };
+		A3093E0E1F0F7FB60055B897 /* vote.png in Resources */ = {isa = PBXBuildFile; fileRef = A3093E0A1F0F7FB60055B897 /* vote.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3093DDB1F0F7AAA0055B897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3093DB91F0F7AAA0055B897 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3093DC01F0F7AAA0055B897;
+			remoteInfo = DFBottonScrollerView;
+		};
+		A3093DE61F0F7AAA0055B897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3093DB91F0F7AAA0055B897 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3093DC01F0F7AAA0055B897;
+			remoteInfo = DFBottonScrollerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25D8076FB98D45AA3245B1A9 /* libPods-DFBottonScrollerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DFBottonScrollerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31EFAABF8CE152CEC5746E0B /* Pods-DFBottonScrollerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFBottonScrollerView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DFBottonScrollerView/Pods-DFBottonScrollerView.debug.xcconfig"; sourceTree = "<group>"; };
+		5C03FEAB7464E550303AA30A /* Pods-DFBottonScrollerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFBottonScrollerView.release.xcconfig"; path = "Pods/Target Support Files/Pods-DFBottonScrollerView/Pods-DFBottonScrollerView.release.xcconfig"; sourceTree = "<group>"; };
+		A3093DC11F0F7AAA0055B897 /* DFBottonScrollerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFBottonScrollerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3093DC51F0F7AAA0055B897 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3093DC71F0F7AAA0055B897 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3093DC81F0F7AAA0055B897 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3093DCA1F0F7AAA0055B897 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3093DCB1F0F7AAA0055B897 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3093DCE1F0F7AAA0055B897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3093DD01F0F7AAA0055B897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3093DD31F0F7AAA0055B897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3093DD51F0F7AAA0055B897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3093DDA1F0F7AAA0055B897 /* DFBottonScrollerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFBottonScrollerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3093DDE1F0F7AAA0055B897 /* DFBottonScrollerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFBottonScrollerViewTests.m; sourceTree = "<group>"; };
+		A3093DE01F0F7AAA0055B897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3093DE51F0F7AAA0055B897 /* DFBottonScrollerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFBottonScrollerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3093DE91F0F7AAA0055B897 /* DFBottonScrollerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFBottonScrollerViewUITests.m; sourceTree = "<group>"; };
+		A3093DEB1F0F7AAA0055B897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3093E011F0F7C920055B897 /* DFImgAndLableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFImgAndLableView.h; sourceTree = "<group>"; };
+		A3093E021F0F7C920055B897 /* DFImgAndLableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFImgAndLableView.m; sourceTree = "<group>"; };
+		A3093E031F0F7C920055B897 /* DFButtonScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFButtonScrollView.h; sourceTree = "<group>"; };
+		A3093E041F0F7C920055B897 /* DFButtonScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFButtonScrollView.m; sourceTree = "<group>"; };
+		A3093E071F0F7FB60055B897 /* 赞.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赞.png"; sourceTree = "<group>"; };
+		A3093E081F0F7FB60055B897 /* like_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like_0.png; sourceTree = "<group>"; };
+		A3093E091F0F7FB60055B897 /* like_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like_1.png; sourceTree = "<group>"; };
+		A3093E0A1F0F7FB60055B897 /* vote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vote.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3093DBE1F0F7AAA0055B897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63046A56967565593575D42E /* libPods-DFBottonScrollerView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3093DD71F0F7AAA0055B897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3093DE21F0F7AAA0055B897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3093DB81F0F7AAA0055B897 = {
+			isa = PBXGroup;
+			children = (
+				A3093DC31F0F7AAA0055B897 /* DFBottonScrollerView */,
+				A3093DDD1F0F7AAA0055B897 /* DFBottonScrollerViewTests */,
+				A3093DE81F0F7AAA0055B897 /* DFBottonScrollerViewUITests */,
+				A3093DC21F0F7AAA0055B897 /* Products */,
+				C6893CB8299964D0483ABC8E /* Pods */,
+				FD95B0CF871B3A159A38EBBA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A3093DC21F0F7AAA0055B897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3093DC11F0F7AAA0055B897 /* DFBottonScrollerView.app */,
+				A3093DDA1F0F7AAA0055B897 /* DFBottonScrollerViewTests.xctest */,
+				A3093DE51F0F7AAA0055B897 /* DFBottonScrollerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3093DC31F0F7AAA0055B897 /* DFBottonScrollerView */ = {
+			isa = PBXGroup;
+			children = (
+				A3093E071F0F7FB60055B897 /* 赞.png */,
+				A3093E081F0F7FB60055B897 /* like_0.png */,
+				A3093E091F0F7FB60055B897 /* like_1.png */,
+				A3093E0A1F0F7FB60055B897 /* vote.png */,
+				A3093DF71F0F7B6E0055B897 /* DFBottonScrollerView */,
+				A3093DC71F0F7AAA0055B897 /* AppDelegate.h */,
+				A3093DC81F0F7AAA0055B897 /* AppDelegate.m */,
+				A3093DCA1F0F7AAA0055B897 /* ViewController.h */,
+				A3093DCB1F0F7AAA0055B897 /* ViewController.m */,
+				A3093DCD1F0F7AAA0055B897 /* Main.storyboard */,
+				A3093DD01F0F7AAA0055B897 /* Assets.xcassets */,
+				A3093DD21F0F7AAA0055B897 /* LaunchScreen.storyboard */,
+				A3093DD51F0F7AAA0055B897 /* Info.plist */,
+				A3093DC41F0F7AAA0055B897 /* Supporting Files */,
+			);
+			path = DFBottonScrollerView;
+			sourceTree = "<group>";
+		};
+		A3093DC41F0F7AAA0055B897 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3093DC51F0F7AAA0055B897 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3093DDD1F0F7AAA0055B897 /* DFBottonScrollerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3093DDE1F0F7AAA0055B897 /* DFBottonScrollerViewTests.m */,
+				A3093DE01F0F7AAA0055B897 /* Info.plist */,
+			);
+			path = DFBottonScrollerViewTests;
+			sourceTree = "<group>";
+		};
+		A3093DE81F0F7AAA0055B897 /* DFBottonScrollerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3093DE91F0F7AAA0055B897 /* DFBottonScrollerViewUITests.m */,
+				A3093DEB1F0F7AAA0055B897 /* Info.plist */,
+			);
+			path = DFBottonScrollerViewUITests;
+			sourceTree = "<group>";
+		};
+		A3093DF71F0F7B6E0055B897 /* DFBottonScrollerView */ = {
+			isa = PBXGroup;
+			children = (
+				A3093E011F0F7C920055B897 /* DFImgAndLableView.h */,
+				A3093E021F0F7C920055B897 /* DFImgAndLableView.m */,
+				A3093E031F0F7C920055B897 /* DFButtonScrollView.h */,
+				A3093E041F0F7C920055B897 /* DFButtonScrollView.m */,
+			);
+			path = DFBottonScrollerView;
+			sourceTree = "<group>";
+		};
+		C6893CB8299964D0483ABC8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31EFAABF8CE152CEC5746E0B /* Pods-DFBottonScrollerView.debug.xcconfig */,
+				5C03FEAB7464E550303AA30A /* Pods-DFBottonScrollerView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD95B0CF871B3A159A38EBBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25D8076FB98D45AA3245B1A9 /* libPods-DFBottonScrollerView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3093DC01F0F7AAA0055B897 /* DFBottonScrollerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3093DEE1F0F7AAA0055B897 /* Build configuration list for PBXNativeTarget "DFBottonScrollerView" */;
+			buildPhases = (
+				A5DCC56E9244CAEBADC91CDB /* [CP] Check Pods Manifest.lock */,
+				A3093DBD1F0F7AAA0055B897 /* Sources */,
+				A3093DBE1F0F7AAA0055B897 /* Frameworks */,
+				A3093DBF1F0F7AAA0055B897 /* Resources */,
+				93F69766F92EA8A5FA8058E4 /* [CP] Embed Pods Frameworks */,
+				CAC14949FD466B12C6DCB811 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DFBottonScrollerView;
+			productName = DFBottonScrollerView;
+			productReference = A3093DC11F0F7AAA0055B897 /* DFBottonScrollerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3093DD91F0F7AAA0055B897 /* DFBottonScrollerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3093DF11F0F7AAA0055B897 /* Build configuration list for PBXNativeTarget "DFBottonScrollerViewTests" */;
+			buildPhases = (
+				A3093DD61F0F7AAA0055B897 /* Sources */,
+				A3093DD71F0F7AAA0055B897 /* Frameworks */,
+				A3093DD81F0F7AAA0055B897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3093DDC1F0F7AAA0055B897 /* PBXTargetDependency */,
+			);
+			name = DFBottonScrollerViewTests;
+			productName = DFBottonScrollerViewTests;
+			productReference = A3093DDA1F0F7AAA0055B897 /* DFBottonScrollerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3093DE41F0F7AAA0055B897 /* DFBottonScrollerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3093DF41F0F7AAA0055B897 /* Build configuration list for PBXNativeTarget "DFBottonScrollerViewUITests" */;
+			buildPhases = (
+				A3093DE11F0F7AAA0055B897 /* Sources */,
+				A3093DE21F0F7AAA0055B897 /* Frameworks */,
+				A3093DE31F0F7AAA0055B897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3093DE71F0F7AAA0055B897 /* PBXTargetDependency */,
+			);
+			name = DFBottonScrollerViewUITests;
+			productName = DFBottonScrollerViewUITests;
+			productReference = A3093DE51F0F7AAA0055B897 /* DFBottonScrollerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3093DB91F0F7AAA0055B897 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = df;
+				TargetAttributes = {
+					A3093DC01F0F7AAA0055B897 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					A3093DD91F0F7AAA0055B897 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A3093DC01F0F7AAA0055B897;
+					};
+					A3093DE41F0F7AAA0055B897 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A3093DC01F0F7AAA0055B897;
+					};
+				};
+			};
+			buildConfigurationList = A3093DBC1F0F7AAA0055B897 /* Build configuration list for PBXProject "DFBottonScrollerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3093DB81F0F7AAA0055B897;
+			productRefGroup = A3093DC21F0F7AAA0055B897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3093DC01F0F7AAA0055B897 /* DFBottonScrollerView */,
+				A3093DD91F0F7AAA0055B897 /* DFBottonScrollerViewTests */,
+				A3093DE41F0F7AAA0055B897 /* DFBottonScrollerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3093DBF1F0F7AAA0055B897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3093E0C1F0F7FB60055B897 /* like_0.png in Resources */,
+				A3093DD41F0F7AAA0055B897 /* LaunchScreen.storyboard in Resources */,
+				A3093E0E1F0F7FB60055B897 /* vote.png in Resources */,
+				A3093DD11F0F7AAA0055B897 /* Assets.xcassets in Resources */,
+				A3093E0B1F0F7FB60055B897 /* 赞.png in Resources */,
+				A3093E0D1F0F7FB60055B897 /* like_1.png in Resources */,
+				A3093DCF1F0F7AAA0055B897 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3093DD81F0F7AAA0055B897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3093DE31F0F7AAA0055B897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93F69766F92EA8A5FA8058E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DFBottonScrollerView/Pods-DFBottonScrollerView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5DCC56E9244CAEBADC91CDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CAC14949FD466B12C6DCB811 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DFBottonScrollerView/Pods-DFBottonScrollerView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3093DBD1F0F7AAA0055B897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3093DCC1F0F7AAA0055B897 /* ViewController.m in Sources */,
+				A3093DC91F0F7AAA0055B897 /* AppDelegate.m in Sources */,
+				A3093DC61F0F7AAA0055B897 /* main.m in Sources */,
+				A3093E051F0F7C920055B897 /* DFImgAndLableView.m in Sources */,
+				A3093E061F0F7C920055B897 /* DFButtonScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3093DD61F0F7AAA0055B897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3093DDF1F0F7AAA0055B897 /* DFBottonScrollerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3093DE11F0F7AAA0055B897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3093DEA1F0F7AAA0055B897 /* DFBottonScrollerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3093DDC1F0F7AAA0055B897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3093DC01F0F7AAA0055B897 /* DFBottonScrollerView */;
+			targetProxy = A3093DDB1F0F7AAA0055B897 /* PBXContainerItemProxy */;
+		};
+		A3093DE71F0F7AAA0055B897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3093DC01F0F7AAA0055B897 /* DFBottonScrollerView */;
+			targetProxy = A3093DE61F0F7AAA0055B897 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3093DCD1F0F7AAA0055B897 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3093DCE1F0F7AAA0055B897 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3093DD21F0F7AAA0055B897 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3093DD31F0F7AAA0055B897 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3093DEC1F0F7AAA0055B897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3093DED1F0F7AAA0055B897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3093DEF1F0F7AAA0055B897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31EFAABF8CE152CEC5746E0B /* Pods-DFBottonScrollerView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DFBottonScrollerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = df.DFBottonScrollerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3093DF01F0F7AAA0055B897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C03FEAB7464E550303AA30A /* Pods-DFBottonScrollerView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DFBottonScrollerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = df.DFBottonScrollerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3093DF21F0F7AAA0055B897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DFBottonScrollerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = df.DFBottonScrollerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFBottonScrollerView.app/DFBottonScrollerView";
+			};
+			name = Debug;
+		};
+		A3093DF31F0F7AAA0055B897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DFBottonScrollerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = df.DFBottonScrollerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFBottonScrollerView.app/DFBottonScrollerView";
+			};
+			name = Release;
+		};
+		A3093DF51F0F7AAA0055B897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DFBottonScrollerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = df.DFBottonScrollerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DFBottonScrollerView;
+			};
+			name = Debug;
+		};
+		A3093DF61F0F7AAA0055B897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DFBottonScrollerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = df.DFBottonScrollerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DFBottonScrollerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3093DBC1F0F7AAA0055B897 /* Build configuration list for PBXProject "DFBottonScrollerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3093DEC1F0F7AAA0055B897 /* Debug */,
+				A3093DED1F0F7AAA0055B897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3093DEE1F0F7AAA0055B897 /* Build configuration list for PBXNativeTarget "DFBottonScrollerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3093DEF1F0F7AAA0055B897 /* Debug */,
+				A3093DF01F0F7AAA0055B897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3093DF11F0F7AAA0055B897 /* Build configuration list for PBXNativeTarget "DFBottonScrollerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3093DF21F0F7AAA0055B897 /* Debug */,
+				A3093DF31F0F7AAA0055B897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3093DF41F0F7AAA0055B897 /* Build configuration list for PBXNativeTarget "DFBottonScrollerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3093DF51F0F7AAA0055B897 /* Debug */,
+				A3093DF61F0F7AAA0055B897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3093DB91F0F7AAA0055B897 /* Project object */;
+}
